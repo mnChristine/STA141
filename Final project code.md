@@ -233,6 +233,7 @@ ggplot(success_rate, aes(x = trail_group, y = success)) +
       theme_bw()
 ```
 We can see that the success rate in both different sessions and different rats is slowly decreasing. We can take into account the fatigue factor of the test subjects and so on. Meanwhile, according to the graph ,which show the success rate change over each mouse, we can know hench this kind of mouse's success rate is more stable, more suitable for experimental subjects.
+
 # Section 3: Data integration
 
 Part 2. Data integration. Using the findings in Part 1, we will propose an approach to combine data across trials by (i) extracting the shared patters across sessions and/or (ii) addressing the differences between sessions. The goal of this part is to enable the borrowing of information across sessions to enhance the prediction performance in Part 3. 
